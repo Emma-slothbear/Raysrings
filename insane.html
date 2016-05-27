@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="icon" href="img/logo.jpg">
+<head>
+<title>Grid Demo</title>
+<!-- styles -->
+<link rel="stylesheet" href="css/grid_34.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/cart.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="loadCart()">
+<div class="container-header">
+    <header>
+        <div class="row">
+            <div class="one-third">
+                 <img src="img/logo.jpg" class="logo">
+            </div>
+            <div class="two-thirds">
+                <h1>Ray's Rings</h1>
+                   <div id="cart_links">
+                        <a href="cart.html"><img class="cart_icon" src="img/cart_icon.png" alt="cart icon" /></a>
+                        <span class="cart_link"><a id="cart_link" href="cart.html">Shopping Cart</a></span> <br />
+                        <span class="item_count">Items (<span id="item_count">0</span>)</span>
+                        <span class="checkout_link"><a id="checkout_link" href="#">Checkout</a></span>
+                    </div> 
+                <nav>
+                    <div class="menu-toggle">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cheap.html">Cheap</a></li>
+                        <li><a href="expensive.html">Expensive</a></li>
+                        <li><a href="insane.html">Insane</a></li>
+                    </ul>
+                        
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="container">
+    <h1>Insane Rings</h1>
+ 
+    <div class="row">
+            <div class="one-fourths">
+                <img src="img/horn.jpg">
+            </div>
+            <div class="three-fourths">
+                <h2>Unicorn Ring</h2>
+                <span class="price">$50000.00</span>
+                <p>This ring was carved from a horn of a unicorn. The horns are harvested by elves in middle earth by settlers of catan. We recommend that you give this ring to you weird neighbor that dresses like an orce and only leaves the house to go to dragoncon will be making you lembas all week.</p>
+                <input type="button" onclick="addToCart('11')" value="Add to cart">
+            </div>
+    </div>
+    <div class="row">
+               <div class="one-fourths">
+                 <img src="img/tooth.png">
+               </div>
+               <div class="three-fourths">
+                    <h2>Bigfoot tooth Ring</h2>
+                    <span class="price">$900000.00</span>
+                    <p>This ring was crafted by the lock ness monster from bigfoots’ teeth. It was then given to secret government agencies so that we could sell it to you then track your every move using the microchip in the mocha latte you drank last week. You already know who to buy this for.</p>
+                    <input type="button" onclick="addToCart('12')" value="Add to cart"> 
+               </div>
+       </div>
+    <div class="row">
+               <div class="one-fourths">
+                 <img src="img/dino.jpg">
+               </div>
+               <div class="three-fourths">
+                    <h2>Dinosaurs Ring</h2>
+                    <span class="price">$100000.00</span>
+                    <p>This ring was made from dinosaur fossils dug up in nevada. They were shipped to our master jeweler to be cut into rings. We recommend this ring for all the old people you know, maybe they know some of those dinos.</p>
+                    <input type="button" onclick="addToCart('13')" value="Add to cart">
+               </div>
+       </div>         
+    <div class="row">
+               <div class="one-fourths">
+                 <img src="img/Kryptonite.jpg">
+               </div>
+               <div class="three-fourths">
+                     <h2>Kryptonite Ring</h2>
+                     <span class="price">$7000000.00</span>
+                     <p>This ring is made from kryptonite out of batman's kryptonite  sphere. It was cut off by wonder woman shaped by green lantern and shipped by the flash. We recommend this ring for all marvels nerds, so they can know DC is better.</p>
+                    <input type="button" onclick="addToCart('14')" value="Add to cart">
+               </div>
+       </div>                
+    <div class="row">
+               <div class="one-fourths">
+                  <img src="img/red-bird.jpg">
+               </div>
+               <div class="three-fourths">
+                    <h2>Phoenix Ring</h2>
+                    <span class="price">$30000000.00 \ now Free</span>
+                    <p>This ring is made of the phoenix claws and was crafted with care and love by faies. It was blessed by tiny kittens to give its owner good luck. We recommend this ring for you, because you deserve the best in life.</p>
+                    <input type="button" onclick="addToCart('15')" value="Add to cart">
+               </div>
+       </div>           
+             
+             
+          
+            
+        </div>
+    </div>    
+</div>
+<div class="container-footer">
+    <footer>
+        <div class="row">
+            <div class="full">
+                <h2>Look into some of our sister businesses!</h2>
+            </div>
+           
+        </div>
+        
+        <div class="row">
+            <div class="one-half">
+                <h3>American</h3>
+                <ul>
+                    <li><a href="#">Sally's shells</a></li>
+                    <li><a href="#">Max's Moonshine</a></li>
+                   <li><a href="#">Sammy's swords</a></li>
+                    <li><a href="#">lucy's Lotions</a></li>
+                </ul>
+            </div>
+            <div class="one-half">
+                <h3>International</h3>
+                <ul>
+                    <li><a href="#">Muhammad's Mutton Muffins</a></li>
+                    <li><a href="#">Alejandro's Alfredo</a></li>
+                    <li><a href="#">Weasleys Wizard Wheezes</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="one-third">
+                <p>Guest Support<br>(864)567-6666 chickenWings@gmail.net</p>
+            </div>
+            <div class="one-third">
+                <p>&copyEmma 2016</p>
+            </div>
+            <div class="one-third">
+                <p>Greenville SC, 134 Woodruff Road, 77463</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- javascript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/cart.js"></script>
+<script>
+$('#my-carousel').owlCarousel({
+    autoplay : true,
+    autoplayHoverPause : true,
+    autoplayTimeout : 4000,
+    loop : true,
+    items : 1,
+})
+   </script>
+</body>
+</html>

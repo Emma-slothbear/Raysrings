@@ -1,0 +1,57 @@
+/*** layout styles ***/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    /* The border is just to visualize columns during layout. Remove in finished site.
+    border: 1px solid #BBBBBB; */
+    padding: 15px;
+}
+
+.one-sixth{
+    width: 16.6666%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-third {
+    width: 33.333333%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.two-thirds {
+    width: 66.666666%;
+}
+
+.three-fourths {
+    width: 75%;
+}
+
+.five-sixths{
+    width: 83.3333%;
+}
+
+.full {
+    width: 100%;
+}
