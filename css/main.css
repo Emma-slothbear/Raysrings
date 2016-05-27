@@ -1,0 +1,154 @@
+body {
+    background-color: #3a6b67;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #3a6b67;
+    margin: 0 auto;
+}
+
+.container-footer{
+    background-color: #1a94b7;
+}
+
+.container-header{
+    background-color: #1a94b7;
+}
+
+h1 {
+
+}
+
+h2 {
+    border-bottom: solid 4px #dfe9e8;
+    color: #dfe9e8;
+    text-transform: uppercase;
+}
+
+footer h2{
+    color: #dfe9e8;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+footer h3{
+    color: #dfe9e8;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+footer p{
+    color: #dfe9e8;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:link, nav a:visited{
+    display: block;
+    padding: 10px 15px 10px 15px;
+    color: #dfe9e8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active{
+    background: #dfe9e8;
+    color: #1a94b7;
+    text-decoration: none;
+}
+
+
+footer ul{
+    color: #FFFFFF;
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+img  {
+	max-width: 100%;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.price{
+  color: #ffffff;
+}
+legend{
+    color: #ffffff;
+}
